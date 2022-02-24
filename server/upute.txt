@@ -1,0 +1,32 @@
+Instalacija:
+-----------
+- prije pokretanja potrebno je instalirati rethinkdb
+
+source /etc/lsb-release && echo "deb https://download.rethinkdb.com/repository/ubuntu-$DISTRIB_CODENAME $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list
+wget -qO- https://download.rethinkdb.com/repository/raw/pubkey.gpg | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install rethinkdb
+
+
+- u datoteku index.html (glavni folder igre) ako nije već unutra dodati:
+
+
+        <script type="text/javascript" src="js/libs/socket.io.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.js"></script>
+
+(prije pixi.js)
+
+Pokretanje:
+----------
+- zatim u folderu server pokrenuti
+
+rethinkdb
+
+- onda u folderu server pokrenuti
+
+node mmo.js
+
+- na kraju u folderu srv pokrenuti
+
+./server.py --rest
+

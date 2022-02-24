@@ -1,0 +1,145 @@
+2021-10-17T12:21:10.711629138 0.382301s notice: Recursively removing directory /home/markus/Dropbox/myGames/AIWorld2/MMORPGMaker-MV/server/rethinkdb_data/tmp
+2021-10-17T12:21:11.007115962 0.677792s notice: Initializing directory /home/markus/Dropbox/myGames/AIWorld2/MMORPGMaker-MV/server/rethinkdb_data
+2021-10-17T12:21:11.007457177 0.678129s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/markus/Dropbox/myGames/AIWorld2/MMORPGMaker-MV/server/rethinkdb_data' did not already exist or is empty.)
+2021-10-17T12:21:11.007531515 0.678203s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-10-17T12:21:11.015372002 0.686045s notice: Running on Linux 5.4.0-88-lowlatency x86_64
+2021-10-17T12:21:11.015502108 0.686173s notice: Loading data from directory /home/markus/Dropbox/myGames/AIWorld2/MMORPGMaker-MV/server/rethinkdb_data
+2021-10-17T12:21:15.207842760 4.878515s info: Automatically using cache size of 796 MB
+2021-10-17T12:21:15.256831424 4.927503s error: TCP socket creation failed for port 29015: Address already in use.
+2021-10-17T12:21:44.229530682 0.037717s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-10-17T12:21:44.230806222 0.038991s notice: Running on Linux 5.4.0-88-lowlatency x86_64
+2021-10-17T12:21:44.230842769 0.039027s notice: Loading data from directory /home/markus/Dropbox/myGames/AIWorld2/MMORPGMaker-MV/server/rethinkdb_data
+2021-10-17T12:21:44.262771394 0.070956s info: Automatically using cache size of 767 MB
+2021-10-17T12:21:44.263778917 0.071963s notice: Listening for intracluster connections on port 29015
+2021-10-17T12:21:44.264642514 0.072827s notice: Listening for client driver connections on port 28015
+2021-10-17T12:21:44.264702660 0.072887s notice: Listening for administrative HTTP connections on port 8080
+2021-10-17T12:21:44.264706022 0.072890s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-10-17T12:21:44.264707991 0.072892s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-10-17T12:21:44.264712733 0.072897s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-10-17T12:21:44.264716972 0.072901s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-10-17T12:21:44.264720866 0.072905s notice: Server ready, "baltazar_jp0" 82e2fbeb-327d-4afc-bf19-20b6b9439096
+2021-10-17T12:22:56.967780283 72.775965s notice: Server got SIGTERM from pid 56945, uid 1001; shutting down...
+2021-10-17T12:22:56.967893467 72.776078s notice: Shutting down client connections...
+2021-10-17T12:22:56.968383849 72.776568s notice: All client connections closed.
+2021-10-17T12:22:56.968388291 72.776572s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-10-17T12:22:56.968579720 72.776764s notice: Storage engine shut down.
+2021-10-17T12:23:34.990821352 0.021512s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-10-17T12:23:34.992091687 0.022781s notice: Running on Linux 5.4.0-88-lowlatency x86_64
+2021-10-17T12:23:34.992118329 0.022807s notice: Loading data from directory /home/markus/Dropbox/myGames/AIWorld2/MMORPGMaker-MV/server/rethinkdb_data
+2021-10-17T12:23:35.012337495 0.043026s info: Automatically using cache size of 922 MB
+2021-10-17T12:23:35.013352783 0.044042s notice: Listening for intracluster connections on port 29015
+2021-10-17T12:23:35.014032358 0.044721s notice: Listening for client driver connections on port 28015
+2021-10-17T12:23:35.014063349 0.044752s notice: Listening for administrative HTTP connections on port 8080
+2021-10-17T12:23:35.014064657 0.044753s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-10-17T12:23:35.014065775 0.044754s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-10-17T12:23:35.014068660 0.044757s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-10-17T12:23:35.014071314 0.044760s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-10-17T12:23:35.014073643 0.044762s notice: Server ready, "baltazar_jp0" 82e2fbeb-327d-4afc-bf19-20b6b9439096
+2021-10-17T12:24:06.645688164 31.676377s info: Table efc183cc-ed2a-4eda-9eaf-348340a47d94: Starting a new Raft election for term 1.
+2021-10-17T12:24:06.658958759 31.689649s info: Table efc183cc-ed2a-4eda-9eaf-348340a47d94: Added replica on this server.
+2021-10-17T12:24:06.659011083 31.689700s info: Table a0243604-1a7d-4580-9ec1-3892f69d489e: Starting a new Raft election for term 1.
+2021-10-17T12:24:06.662738979 31.693428s info: Table a0243604-1a7d-4580-9ec1-3892f69d489e: Added replica on this server.
+2021-10-17T12:24:06.662827116 31.693516s info: Table 5ebb9899-f2cf-4714-a788-0513c36fe0a3: Starting a new Raft election for term 1.
+2021-10-17T12:24:06.663632866 31.694322s info: Table 5ebb9899-f2cf-4714-a788-0513c36fe0a3: Added replica on this server.
+2021-10-17T12:24:06.668935265 31.699624s info: Table efc183cc-ed2a-4eda-9eaf-348340a47d94: This server is Raft leader for term 1. Latest log index is 0.
+2021-10-17T12:24:06.674368537 31.705058s info: Table a0243604-1a7d-4580-9ec1-3892f69d489e: This server is Raft leader for term 1. Latest log index is 0.
+2021-10-17T12:24:06.679484317 31.710173s info: Table 5ebb9899-f2cf-4714-a788-0513c36fe0a3: This server is Raft leader for term 1. Latest log index is 0.
+2021-10-17T12:26:30.229156925 175.259851s notice: Server got SIGTERM from pid 57701, uid 1001; shutting down...
+2021-10-17T12:26:30.229467889 175.260157s notice: Shutting down client connections...
+2021-10-17T12:26:30.229641850 175.260331s notice: All client connections closed.
+2021-10-17T12:26:30.229646651 175.260335s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-10-17T12:26:30.240768328 175.271459s notice: Storage engine shut down.
+2021-10-17T12:27:13.467854677 0.018669s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-10-17T12:27:13.470993034 0.021807s notice: Running on Linux 5.4.0-88-lowlatency x86_64
+2021-10-17T12:27:13.471038518 0.021851s notice: Loading data from directory /home/markus/Dropbox/myGames/2021_AIWorld/AIWorld/server/rethinkdb_data
+2021-10-17T12:27:13.511841162 0.062654s info: Automatically using cache size of 889 MB
+2021-10-17T12:27:13.512290383 0.063103s notice: Listening for intracluster connections on port 29015
+2021-10-17T12:27:13.558004826 0.108817s notice: Listening for client driver connections on port 28015
+2021-10-17T12:27:13.558043021 0.108855s notice: Listening for administrative HTTP connections on port 8080
+2021-10-17T12:27:13.558045674 0.108858s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-10-17T12:27:13.558047086 0.108859s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-10-17T12:27:13.558063477 0.108876s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-10-17T12:27:13.558065629 0.108878s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-10-17T12:27:13.558067466 0.108880s notice: Server ready, "baltazar_jp0" 82e2fbeb-327d-4afc-bf19-20b6b9439096
+2021-10-17T12:27:14.678999962 1.229813s info: Table efc183cc-ed2a-4eda-9eaf-348340a47d94: Starting a new Raft election for term 2.
+2021-10-17T12:27:14.736237677 1.287051s info: Table efc183cc-ed2a-4eda-9eaf-348340a47d94: This server is Raft leader for term 2. Latest log index is 3.
+2021-10-17T12:27:15.105323632 1.656136s info: Table a0243604-1a7d-4580-9ec1-3892f69d489e: Starting a new Raft election for term 2.
+2021-10-17T12:27:15.245422433 1.796235s info: Table 5ebb9899-f2cf-4714-a788-0513c36fe0a3: Starting a new Raft election for term 2.
+2021-10-17T12:27:15.281935642 1.832749s info: Table a0243604-1a7d-4580-9ec1-3892f69d489e: This server is Raft leader for term 2. Latest log index is 3.
+2021-10-17T12:27:16.032509783 2.583323s info: Table 5ebb9899-f2cf-4714-a788-0513c36fe0a3: This server is Raft leader for term 2. Latest log index is 3.
+2021-10-17T12:32:09.761260715 296.312074s notice: Server got SIGTERM from pid 58387, uid 1001; shutting down...
+2021-10-17T12:32:09.761497655 296.312310s notice: Shutting down client connections...
+2021-10-17T12:32:09.761695213 296.312508s notice: All client connections closed.
+2021-10-17T12:32:09.761702604 296.312515s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-10-17T12:32:09.774640288 296.325453s notice: Storage engine shut down.
+2021-10-17T12:32:09.807695843 0.020743s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-10-17T12:32:09.810611902 0.023656s notice: Running on Linux 5.4.0-88-lowlatency x86_64
+2021-10-17T12:32:09.810732515 0.023776s notice: Loading data from directory /home/markus/Dropbox/myGames/2021_AIWorld/AIWorld/server/rethinkdb_data
+2021-10-17T12:32:09.828771106 0.041814s info: Automatically using cache size of 800 MB
+2021-10-17T12:32:09.830916935 0.043960s notice: Listening for intracluster connections on port 29015
+2021-10-17T12:32:09.850570631 0.063614s notice: Listening for client driver connections on port 28015
+2021-10-17T12:32:09.850612124 0.063655s notice: Listening for administrative HTTP connections on port 8080
+2021-10-17T12:32:09.850625934 0.063669s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-10-17T12:32:09.850627730 0.063670s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-10-17T12:32:09.850629701 0.063672s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-10-17T12:32:09.850631868 0.063675s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-10-17T12:32:09.850634138 0.063677s notice: Server ready, "baltazar_jp0" 82e2fbeb-327d-4afc-bf19-20b6b9439096
+2021-10-17T12:32:11.267302536 1.480346s info: Table a0243604-1a7d-4580-9ec1-3892f69d489e: Starting a new Raft election for term 3.
+2021-10-17T12:32:11.276162434 1.489206s info: Table a0243604-1a7d-4580-9ec1-3892f69d489e: This server is Raft leader for term 3. Latest log index is 6.
+2021-10-17T12:32:11.455290860 1.668334s info: Table efc183cc-ed2a-4eda-9eaf-348340a47d94: Starting a new Raft election for term 3.
+2021-10-17T12:32:11.461733250 1.674777s info: Table efc183cc-ed2a-4eda-9eaf-348340a47d94: This server is Raft leader for term 3. Latest log index is 7.
+2021-10-17T12:32:11.746144921 1.959188s info: Table 5ebb9899-f2cf-4714-a788-0513c36fe0a3: Starting a new Raft election for term 3.
+2021-10-17T12:32:11.947442057 2.160486s info: Table 5ebb9899-f2cf-4714-a788-0513c36fe0a3: This server is Raft leader for term 3. Latest log index is 6.
+2021-10-18T14:38:26.587623176 93976.800799s notice: Server got SIGTERM from pid 164969, uid 1001; shutting down...
+2021-10-18T14:38:26.591274690 93976.804318s notice: Shutting down client connections...
+2021-10-18T14:38:26.591748410 93976.804791s notice: All client connections closed.
+2021-10-18T14:38:26.591752298 93976.804795s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-10-18T14:38:26.760182944 93976.973226s notice: Storage engine shut down.
+2021-10-18T14:40:14.105516116 0.034121s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-10-18T14:40:14.109674681 0.038270s notice: Running on Linux 5.4.0-88-lowlatency x86_64
+2021-10-18T14:40:14.109747370 0.038341s notice: Loading data from directory /home/markus/Dropbox/myGames/2021_AIWorld/AIWorld/server/rethinkdb_data
+2021-10-18T14:40:14.137810975 0.066405s info: Automatically using cache size of 215 MB
+2021-10-18T14:40:14.141142263 0.069736s notice: Listening for intracluster connections on port 29015
+2021-10-18T14:40:14.230048870 0.158643s notice: Listening for client driver connections on port 28015
+2021-10-18T14:40:14.230178508 0.158772s notice: Listening for administrative HTTP connections on port 8080
+2021-10-18T14:40:14.230181994 0.158775s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-10-18T14:40:14.230185107 0.158778s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-10-18T14:40:14.230195582 0.158789s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-10-18T14:40:14.230199755 0.158793s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-10-18T14:40:14.230202026 0.158795s notice: Server ready, "baltazar_jp0" 82e2fbeb-327d-4afc-bf19-20b6b9439096
+2021-10-18T14:40:15.769775100 1.698369s info: Table a0243604-1a7d-4580-9ec1-3892f69d489e: Starting a new Raft election for term 4.
+2021-10-18T14:40:15.777239985 1.705834s info: Table a0243604-1a7d-4580-9ec1-3892f69d489e: This server is Raft leader for term 4. Latest log index is 9.
+2021-10-18T14:40:16.052020681 1.980614s info: Table 5ebb9899-f2cf-4714-a788-0513c36fe0a3: Starting a new Raft election for term 4.
+2021-10-18T14:40:16.061384524 1.989978s info: Table 5ebb9899-f2cf-4714-a788-0513c36fe0a3: This server is Raft leader for term 4. Latest log index is 10.
+2021-10-18T14:40:16.219738409 2.148332s info: Table efc183cc-ed2a-4eda-9eaf-348340a47d94: Starting a new Raft election for term 4.
+2021-10-18T14:40:16.225964890 2.154558s info: Table efc183cc-ed2a-4eda-9eaf-348340a47d94: This server is Raft leader for term 4. Latest log index is 11.
+2021-10-18T14:40:21.657990019 7.586584s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-10-18T14:40:21.658106315 7.586700s notice: Shutting down client connections...
+2021-10-18T14:40:21.658153982 7.586747s notice: All client connections closed.
+2021-10-18T14:40:21.658156838 7.586750s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-10-18T14:40:21.668037287 7.596631s notice: Storage engine shut down.
+2021-10-18T14:40:29.847909953 0.019817s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2021-10-18T14:40:29.849280964 0.021187s notice: Running on Linux 5.4.0-88-lowlatency x86_64
+2021-10-18T14:40:29.849321290 0.021227s notice: Loading data from directory /home/markus/Dropbox/myGames/2021_AIWorld/AIWorld/server/rethinkdb_data
+2021-10-18T14:40:29.864714060 0.036620s info: Automatically using cache size of 215 MB
+2021-10-18T14:40:29.865263078 0.037169s notice: Listening for intracluster connections on port 29015
+2021-10-18T14:40:29.896644466 0.068550s notice: Listening for client driver connections on port 28015
+2021-10-18T14:40:29.896699221 0.068605s notice: Listening for administrative HTTP connections on port 8080
+2021-10-18T14:40:29.896704277 0.068610s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-10-18T14:40:29.896706618 0.068612s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-10-18T14:40:29.896721526 0.068627s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-10-18T14:40:29.896723133 0.068629s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-10-18T14:40:29.896725194 0.068631s notice: Server ready, "baltazar_jp0" 82e2fbeb-327d-4afc-bf19-20b6b9439096
+2021-10-18T14:40:30.932300214 1.104206s info: Table efc183cc-ed2a-4eda-9eaf-348340a47d94: Starting a new Raft election for term 5.
+2021-10-18T14:40:30.940083563 1.111990s info: Table efc183cc-ed2a-4eda-9eaf-348340a47d94: This server is Raft leader for term 5. Latest log index is 14.
+2021-10-18T14:40:31.087136016 1.259042s info: Table a0243604-1a7d-4580-9ec1-3892f69d489e: Starting a new Raft election for term 5.
+2021-10-18T14:40:31.093741406 1.265648s info: Table a0243604-1a7d-4580-9ec1-3892f69d489e: This server is Raft leader for term 5. Latest log index is 12.
+2021-10-18T14:40:31.156568086 1.328474s info: Table 5ebb9899-f2cf-4714-a788-0513c36fe0a3: Starting a new Raft election for term 5.
+2021-10-18T14:40:31.221141313 1.393047s info: Table 5ebb9899-f2cf-4714-a788-0513c36fe0a3: This server is Raft leader for term 5. Latest log index is 13.
+2021-10-20T00:41:00.835490375 42300.122140s warn: RethinkDB has been accessing a lot of swap memory in the past ten minutes. This may impact performace.
+2021-10-20T12:15:00.873332060 83940.159966s warn: RethinkDB has been accessing a lot of swap memory in the past ten minutes. This may impact performace.
+2021-10-20T12:45:38.880232028 85778.166707s notice: Server got SIGTERM from pid 252568, uid 1001; shutting down...
+2021-10-20T12:45:38.883162211 85778.169637s notice: Shutting down client connections...
+2021-10-20T12:45:38.883865020 85778.170340s notice: All client connections closed.
+2021-10-20T12:45:38.883868046 85778.170343s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-10-20T12:45:38.955716763 85778.242192s notice: Storage engine shut down.
