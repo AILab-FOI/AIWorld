@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      // const socket = io();
+      //
+      // socket.on('connect', () => {
+      //   console.log(socket.id);
+      //   socket.emit('newevent', {
+      //     data: 'Connected!'
+      //   });
+      // });
+      $(document).ready(function () {
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+        socket.on('connect', function() {
+          socket.emit('newevent', {
+            data: 'Connected!'
+          });
+        });
+
+        socket.on('newresponse', function(msg) {
+          console.log(msg);
+          $('#log').append('<br>' + $('<div/>').text('What is the intention of this code: ' + msg.data).html());
+          // socket.emit('disconnect');
+        });
+
+      });
+
+        // socket.emit('after connect', function(msg) {
+        // });
+    </script>
+    <!-- <script type="text/javascript" charset="utf-8">
+      $(document).ready(
+        function() {
+          namespace = 'http://localhost:5000';
+          var socket = io(namespace);
+
+          socket.on('connect', function() {
+            console.log('I am connected!')
+            socket.emit('newevent',{
+              data: 'Connected to the Socket!'
+            });
+          });
+        });
+    </script> -->
+</head>
+<body>
+  <h1>This is webSocket client</h1>
+  <div id="log"></div>
+</body>
+</html>

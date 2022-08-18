@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+
+  aiworld:
+    image: python:3
+    build:
+      context: srv
+      dockerfile: Dockerfile
+    working_dir: /usr/src/app
+    volumes:
+      - ./srv:/usr/src/app
+    environment:
+      FLASK_DEBUG: 1
+      FLASK_ENV: development
+      FLASK_APP: testserver.py
+    ports:
+      - 5000:5000
+    entrypoint:
+      - flask
+      - run
+      - --host=0.0.0.0
+    restart: always

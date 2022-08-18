@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function () {
+        var socket = io.connect('http://' + document.domain + ':' + location.port + '/plan');
+
+        socket.on('connect', function() {
+          socket.emit('makeplan',
+            'domains/blocksworld.pddl',
+            // '(define (domain blocksworld) (:requirements :strips :negative-preconditions) (:predicates (clear ?x) (onTable ?x) (holding ?x) (on ?x ?y)) (:action pickup :parameters (?ob) :precondition (and (clear ?ob) (onTable ?ob)) :effect (and (holding ?ob) (not (clear ?ob)) (not (onTable ?ob))) ) (:action putdown :parameters (?ob) :precondition (holding ?ob) :effect (and (clear ?ob) (onTable ?ob) (not (holding ?ob))) ) (:action stack :parameters (?ob ?underob) :precondition (and (clear ?underob) (holding ?ob) (not (equal ?ob ?underob))) :effect (and (clear ?ob) (on ?ob ?underob) (not (clear ?underob)) (not (holding ?ob))) ) (:action unstack :parameters (?ob ?underob) :precondition (and (on ?ob ?underob) (clear ?ob) (not (equal ?ob ?underob))) :effect (and (holding ?ob) (clear ?underob) (not (on ?ob ?underob)) (not (clear ?ob))) ))',
+            // '(define (problem pb1) (:domain blocksworld) (:objects a b) (:init (onTable a) (onTable b) (clear a) (clear b) (equal a a) (equal b b)) (:goal (on a b)))'
+            '(define (problem pb2) (:domain blocksworld) (:objects a b c) (:init (onTable a) (onTable b) (on c b) (clear a) (clear c) (equal a a) (equal b b) (equal c c)) (:goal (and (on a b) (on b c))))'
+          );
+        });
+
+        socket.on('deliverplan', function(msg) {
+          console.log(msg);
+          $('#log').append('<br/>' + $('<div/>').text('What is the returned data: ' + msg.plan).html());
+        });
+
+        socket.on('disconnect', function() {
+          console.log('Disconnected from server.');
+        });
+
+      });
+    </script>
+</head>
+<body>
+  <h1>This is webSocket client</h1>
+  <div id="log"></div>
+</body>
+</html>
