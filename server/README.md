@@ -33,7 +33,13 @@ First, in the folder `server` run:
 rethinkdb
 ```
 
-Then, in the same folder, run:
+Then, in the same folder, run the following to install all the necessary modules.
+
+```bash
+npm install
+```
+
+Next, in the same folder, run the following command to start the MMO server.
 
 ```bash
 node mmo.js
@@ -45,4 +51,8 @@ Lastly, in the folder `srv` run:
 ./server.py --rest
 ```
 
-The game can be run from RPG Maker or similar.
+If all of the above are running, and produced no errors, the game can be run from RPG Maker or similar.
+
+### Alternately
+
+You can try running the `start_servers.sh` script.
