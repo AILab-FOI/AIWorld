@@ -11,11 +11,18 @@ sudo apt-get update
 sudo apt-get install rethinkdb
 ```
 
-Then, add the following lines into the RPG Maker's `index.html` file, before `pixi.js` is included (make sure the referenced files are present at the defined paths):
+Then, add the following lines into the RPG Maker's `index.html` file, before `pixi.js` is included:
 
 ```html
 <script type="text/javascript" src="js/libs/socket.io.js"></script>
 <script type="text/javascript" src="js/libs/jquery.js"></script>
+```
+
+Make sure the referenced files (`socket.io.js` and `jquery.js`) are present at the defined paths. If they are not, use the following commands within this folder:
+
+```bash
+wget -O js/libs/socket.io.js https://raw.githubusercontent.com/socketio/socket.io/main/client-dist/socket.io.min.js
+wget -O js/libs/jquery.js https://code.jquery.com/jquery-3.6.4.min.js
 ```
 
 ## Running the Project
